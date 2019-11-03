@@ -1,0 +1,27 @@
+{
+  "name": "cryptotest",
+  "version": "1.0.0",
+  "description": "An end to end application for salamantex test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylnit/cryptotest.git"
+  },
+  "keywords": [
+    "Salamantex",
+    "Crypto",
+    "Block",
+    "Chain",
+    "Full",
+    "stack"
+  ],
+  "author": "Samuel Iheadindu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sylnit/cryptotest/issues"
+  },
+  "homepage": "https://github.com/sylnit/cryptotest#readme"
+}
