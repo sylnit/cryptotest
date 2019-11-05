@@ -4,6 +4,7 @@ const UserSchema = mongoose.Schema({
 	name: String,
 	description: String,
 	email: String,
+	password: String,
 	bitcoin_wallet_id: String,
 	bitcoin_wallet_balance: Schema.Types.Decimal128,
 	ethereum_wallet_id: String,
