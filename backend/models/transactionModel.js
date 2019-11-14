@@ -7,7 +7,7 @@ const TransactionSchema = mongoose.Schema({
 	source_user_id: { type: Schema.Types.ObjectId, ref: "User" },
 	target_user_id: { type: Schema.Types.ObjectId, ref: "User" },
 	timestamp_created: { type: Date, default: Date.now },
-	timestamp_processed: { type: Date, default: Date.now },
+	timestamp_processed: { type: Date, default: null },
 	transaction_status: {
 		type: String,
 		enum: ["PENDING", "CANCELLED", "COMPLETED", "FAILED"],
